@@ -1,0 +1,14 @@
+OUTPUT :
+
+javac Logger.java TestSingleton.java
+java TestSingleton
+
+
+private constructor Logger initialized
+[LOG]: This is the first log message
+[LOG]: This is the second log message
+Singleton proved because both the logger instances are same
+
+
+
+ 
