@@ -1,0 +1,7 @@
+
+Updating stock price to â??1200.50...
+Keerthana's Mobile received stock update: â??1200.5
+Keerthana's Web Dashboard received stock update: â??1200.5
+
+Removing web user and updating stock again...
+Keerthana's Mobile received stock update: â??1350.75
