@@ -1,0 +1,12 @@
+CPU: Intel i5
+RAM: 8GB
+Storage: Not included
+-----------------------------------
+CPU: Intel i9
+RAM: 32GB
+Storage: 1TB SSD
+-----------------------------------
+CPU: Intel i3
+RAM: 4GB
+Storage: 256GB SSD
+-----------------------------------
