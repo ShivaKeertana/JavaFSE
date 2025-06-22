@@ -1,0 +1,4 @@
+Sending multi-channel notification:
+Sending Email: Server down alert!
+Sending SMS: Server down alert!
+Sending Slack Message: Server down alert!
