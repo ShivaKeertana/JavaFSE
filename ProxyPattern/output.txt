@@ -1,0 +1,11 @@
+First call:
+Loading nature.jpg from remote server...
+Displaying nature.jpg
+
+Second call:
+Using cached image for: nature.jpg
+Displaying nature.jpg
+
+Another image:
+Loading space.jpg from remote server...
+Displaying space.jpg
