@@ -1,0 +1,19 @@
+
+Added: Employee{ID=101, Name='Keerthana', Position='Developer', Salary=â??50000.0}
+Added: Employee{ID=102, Name='Akshay', Position='Manager', Salary=â??75000.0}
+Added: Employee{ID=103, Name='Abhay', Position='HR', Salary=â??45000.0}
+
+All Employees:
+Employee{ID=101, Name='Keerthana', Position='Developer', Salary=â??50000.0}
+Employee{ID=102, Name='Akshay', Position='Manager', Salary=â??75000.0}
+Employee{ID=103, Name='Abhay', Position='HR', Salary=â??45000.0}
+
+Searching for ID 102:
+Employee{ID=102, Name='Akshay', Position='Manager', Salary=â??75000.0}
+
+Deleting ID 101:
+Deleted employee ID: 101
+
+Updated Employees:
+Employee{ID=102, Name='Akshay', Position='Manager', Salary=â??75000.0}
+Employee{ID=103, Name='Abhay', Position='HR', Salary=â??45000.0}

@@ -1,0 +1,6 @@
+ARRAYS - 
+Array is a data structure in which elements of the same datatype are stored in contiguous memory locations. Each element has its own index using which they can be accessed. They are fixed in size.
+
+ADVANTAGES OF ARRAYS - 
+1. Elements can be accessed in O(1) with the help of indices
+2. Removing and adding elements can be easily done.
