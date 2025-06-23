@@ -1,0 +1,6 @@
+
+Linear Search:
+Book{ID=103, Title='Operating Systems', Author='Galvin'}
+
+Binary Search:
+Book{ID=103, Title='Operating Systems', Author='Galvin'}
