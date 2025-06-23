@@ -1,0 +1,22 @@
+BIG O NOTATION - 
+Big O notation describes how the runtime of an algorithm grows relative to the input.
+It describes the worst case or the lower bound for an algorithm.
+
+BEST CASE SCENARIO -
+There are 2 main search algorithms. 
+Linear search is used for unordered data. In this search, the best case occurs when the element we are searching for is at the first index.
+O(1).
+The second search technique is Binary Search. In binary search the best case scenario is when the element we are searching for is at the mid position.
+O(1).
+
+WORST CASE SCENARIO -
+Linear search: When the element is at the last position. 
+O(n) where n is the size of the array.
+Binary Search : when the element is in corner of every combination of left and right arrays. 
+O(log n)
+
+AVERAGE CASE SCENARIO -
+Linear Search : when the element is in the middle
+O(n/2) = O(n)
+Binary Search : O(log n)
+

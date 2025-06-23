@@ -1,0 +1,3 @@
+
+Linear Search Result: Product{ID='P003', Name='Laptop', Category='Electronics'}
+Binary Search Result: Product{ID='P003', Name='Laptop', Category='Electronics'}
