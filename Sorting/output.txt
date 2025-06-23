@@ -1,0 +1,11 @@
+Bubble Sort:
+Order{ID='O003', Name='Akshay', Price=â??3050.75}
+Order{ID='O001', Name='Keerthana', Price=â??1200.5}
+Order{ID='O002', Name='Abhay', Price=â??899.0}
+Order{ID='O004', Name='Dungala', Price=â??450.0}
+
+Quick Sort:
+Order{ID='O003', Name='Anu', Price=â??3050.75}
+Order{ID='O001', Name='Keerthana', Price=â??1200.5}
+Order{ID='O002', Name='Ravi', Price=â??899.0}
+Order{ID='O004', Name='Megha', Price=â??450.0}

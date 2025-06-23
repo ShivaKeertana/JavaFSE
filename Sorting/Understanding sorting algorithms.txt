@@ -1,0 +1,20 @@
+BUBBLE SORT -
+In bubble sort, adjacent elements are repeatedly compared and if they are not in the correct order, the elements are swapped. 
+it is very easy to implement but consumes a lot of time to run for large datasets. 
+Best case Complexity - O(n)
+Worst case complexity - O(n^2)
+
+INSERTION SORT -
+Insertion sort works by iteratively building a sorted subarray from an unsorted input array. It picks each element from the unsorted part and inserts it into its correct position within the already sorted portion, effectively "inserting" it into its rightful place. 
+Best case complexity - O(n)
+Worst case Complexity - O(n^2)
+
+QUICK SORT -
+It works by selecting a pivot element, partitioning the array around it, and then recursively sorting the sub-arrays. The algorithm efficiently sorts data by repeatedly breaking down the problem into smaller, more manageable subproblems. 
+Best case complexity - O(n logn)
+Worst case complexity - O(n^2)
+
+MERGE SORT - 
+Merge sort works by recursively dividing the input list into smaller sublists until each sublist contains only one element, which is considered sorted. Then, it merges these sorted sublists back together in a sorted order to produce the final sorted list. 
+Best case complexity - O(n logn)
+worst case complexity - O(n logn)
