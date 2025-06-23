@@ -1,0 +1,13 @@
+DIFFERENT TYPES OF LINKED LISTS - 
+
+1. Singly linked lists :
+A singly linked list is a linear data structure where each element, called a node, contains data and a pointer (or link) to the next node in the sequence. The last node's pointer typically points to NULL, indicating the end of the list. Singly linked lists allow for sequential access to elements, starting from the head (first node).
+
+2. Doubly linked lists :
+ A doubly linked list is a type of linked list where each node contains a pointer to both the next node and the previous node in the sequence. This allows for traversal in both forward and backward directions, unlike a singly linked list which only allows forward traversal. Each node in a doubly linked list typically consists of three parts: the data, a pointer to the previous node (prev), and a pointer to the next node (next). 
+
+3. Circular linked lists :
+A circular linked list is a variation of a linked list where the last node's "next" pointer points back to the first node, creating a circular loop. Unlike standard linked lists, there's no null pointer at the end, allowing for continuous traversal. 
+
+4. Circular Doubly Linked List:
+A circular doubly linked list is a linked list where each node contains a pointer to both the next and the previous node, and the last node's "next" pointer points back to the first node, creating a circular structure. Similarly, the first node's "previous" pointer points to the last node. This differs from a standard doubly linked list where the last node's "next" pointer is NULL. 

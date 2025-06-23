@@ -1,0 +1,19 @@
+
+Task added: 1
+Task added: 2
+Task added: 3
+
+All Tasks:
+Task{ID=1, Name='Design UI', Status='Pending'}
+Task{ID=2, Name='Write Backend', Status='In Progress'}
+Task{ID=3, Name='Test App', Status='Pending'}
+
+Searching for Task 2:
+Task{ID=2, Name='Write Backend', Status='In Progress'}
+
+Deleting Task 1:
+Task deleted: 1
+
+Updated Tasks:
+Task{ID=2, Name='Write Backend', Status='In Progress'}
+Task{ID=3, Name='Test App', Status='Pending'}
