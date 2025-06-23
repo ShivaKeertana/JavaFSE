@@ -1,0 +1,20 @@
+INVENTORY MANAGEMENT SYSTEM
+
+Data Structures and algorithms are very essential in management systems as such because -
+
+1. Searching for the availability of a product needs to be done in a systematic approach
+
+2. Adding items or removing items can be easily done with the help of appropriate Data structures
+
+3. Updating the data becomes easy
+
+4. Everything remains under control
+
+
+Types of data structures that can be used in this scenario are -
+1. ArrayLists
+2. HashMaps
+3. TreeMaps
+4. LinkedLists
+
+But in this case HashMaps hold the best 

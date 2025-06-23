@@ -1,0 +1,8 @@
+Product added: P001
+Product added: P002
+Product{ID='P001', Name='Mouse', Quantity=100, Price=â??299.99}
+Product{ID='P002', Name='Keyboard', Quantity=50, Price=â??499.0}
+Product updated: P001
+Product{ID='P001', Name='Wireless Mouse', Quantity=80, Price=â??349.99}
+Product removed: P002
+Product not found: P002
