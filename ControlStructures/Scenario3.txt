@@ -1,0 +1,16 @@
+DECLARE
+  CURSOR due_loans IS
+    SELECT customer_id, due_date
+    FROM loans
+    WHERE due_date BETWEEN SYSDATE AND SYSDATE + 30;
+  
+  v_name customers.name%TYPE;
+BEGIN
+  FOR loan_rec IN due_loans LOOP
+    SELECT name INTO v_name FROM customers WHERE customer_id = loan_rec.customer_id;
+    
+    DBMS_OUTPUT.PUT_LINE('Reminder: Dear ' || v_name ||
+                         ', your loan is due on ' || TO_CHAR(loan_rec.due_date, 'DD-MON-YYYY'));
+  END LOOP;
+END;
+/
