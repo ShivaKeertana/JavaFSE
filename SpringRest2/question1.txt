@@ -1,0 +1,32 @@
+<bean> tag, id attribute, class attribute, <property> tag, name attribute, value attribute
+
+
+the <bean> tag in Spring XML configuration defines a Spring-managed object (called a bean). It tells Spring to create an instance of a specified Java class and manage its lifecycle.
+
+id attribute:
+A unique identifier for the bean within the Spring container. This ID is used to reference the bean when retrieving it programmatically.
+
+class attribute:
+The fully qualified Java class name of the bean to instantiate. Spring uses reflection to create an object of this class.
+
+<property> tag:
+Used inside a <bean> tag to inject values into the bean’s fields via their setter methods.
+
+name attribute (inside <property>):
+Specifies the name of the bean property (field) that you want to set. This should match the JavaBean property name (corresponding to the setter method).
+
+value attribute (inside <property>):
+The actual value to assign to the bean property.
+
+Example:
+
+<bean id="country" class="com.example.Country">
+  <property name="code" value="IN"/>
+  <property name="name" value="India"/>
+</bean>
+
+
+Here, Spring will create a Country object and call setCode("IN") and setName("India") during initialization.
+
+
+

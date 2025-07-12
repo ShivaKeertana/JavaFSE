@@ -1,0 +1,24 @@
+What exactly happens when context.getBean() is invoked?
+When you call:
+
+
+Country country = context.getBean("country", Country.class);
+This process occurs:
+
+Lookup: Spring looks for a bean definition with the ID "country" in its configuration.
+
+Bean Instantiation:
+
+If the bean is not already created (for singleton scope), Spring creates an instance using the class specified in the bean definition.
+
+If prototype scope, it creates a new instance every time.
+
+Dependency Injection:
+Spring injects dependencies and sets property values via setter methods or constructor arguments as configured.
+
+Bean Initialization:
+Spring completes lifecycle methods such as @PostConstruct or custom init methods if defined.
+
+Return Bean:
+The fully initialized bean instance is returned, ready for use.
+

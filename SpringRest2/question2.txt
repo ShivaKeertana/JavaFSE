@@ -1,0 +1,16 @@
+ApplicationContext and ClassPathXmlApplicationContext
+ApplicationContext:
+
+
+It is the central interface to access Spring’s IoC (Inversion of Control) container. It is responsible for instantiating, configuring, and assembling the beans defined in the Spring configuration.
+
+ClassPathXmlApplicationContext:
+A concrete implementation of ApplicationContext that loads the Spring XML configuration file from the classpath (usually src/main/resources). It reads the XML, creates the beans, wires dependencies, and manages the lifecycle.
+
+Usage Example:
+
+ApplicationContext context = new ClassPathXmlApplicationContext("country.xml");
+
+
+This loads the country.xml from the classpath and initializes the beans defined inside.
+
